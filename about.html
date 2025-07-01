@@ -263,231 +263,466 @@
     </div>
 
     <!-- Header Navigation -->
-    <header id="header" class="sticky top-0 z-40 w-full transition-all duration-300">
-        <nav class="bg-glass border-b border-gray-200 backdrop-blur-md">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-20">
-                    <!-- Logo -->
-                    <div class="flex-shrink-0 flex items-center">
-                        <a href="/" class="flex items-center">
-                            <img class="h-12 w-auto" src="https://i.postimg.cc/cCwXxx3N/Ray-Design-Logo.png" alt="RayDesign Technologies Logo">
-                        </a>
-                    </div>
-
-                    <!-- Desktop Navigation -->
-                    <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">
-                        <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium text-primary-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group">
-                            Home
-                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                        </a>
-                        <a href="about.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group">
-                            About Us
-                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                        </a>
-
-                        <!-- Services Dropdown -->
-                        <div class="relative group">
-    <button class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 inline-flex items-center group-hover:text-primary-700">
-        Services
-        <svg class="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-        </svg>
-        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-    </button>
-
-    <!-- Dropdown Menu -->
-    <div class="absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left group-hover:translate-y-0 translate-y-2 z-50 border border-gray-100">
-        <div class="p-4 grid grid-cols-1 gap-2">
-            <div class="col-span-1">
-                <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Web & Mobile</h3>
-                <a href="/services/web-development/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-laptop-code mr-3 text-primary-500"></i>
-                    Web Development
-                </a>
-                <a href="/services/mobile-apps/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-mobile-alt mr-3 text-primary-500"></i>
-                    Mobile Applications
-                </a>
-                <a href="/services/e-commerce" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-shopping-cart mr-3 text-primary-500"></i>
-                    E-Commerce Solutions
-                </a>
-            </div>
-        </div>
-
-        <div class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2">
-            <div class="col-span-1">
-                <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Marketing</h3>
-                <a href="/services/social-media/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-share-alt mr-3 text-primary-500"></i>
-                    Social Media Marketing
-                </a>
-                <a href="/services/seo/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-search mr-3 text-primary-500"></i>
-                    SEO Services
-                </a>
-                <a href="/services/ppc/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-bullseye mr-3 text-primary-500"></i>
-                    PPC Advertising
-                </a>
-            </div>
-        </div>
-
-        <div class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2">
-            <div class="col-span-1">
-                <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Design & Innovation</h3>
-                <a href="/services/ui-ux-design/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-pencil-ruler mr-3 text-primary-500"></i>
-                    UI/UX Design
-                </a>
-                <a href="/services/branding/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-paint-brush mr-3 text-primary-500"></i>
-                    Branding & Identity
-                </a>
-            </div>
-        </div>
-
-        <div class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2">
-            <div class="col-span-1">
-                <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">AI & Automation</h3>
-                <a href="/services/ai-solutions/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150">
-                    <i class="fas fa-robot mr-3 text-primary-500"></i>
-                    AI Solutions
-                </a>
-            </div>
-        </div>
-
-        <div class="p-4 bg-primary-50 rounded-b-lg">
-            <a href="services.html" class="inline-flex items-center text-sm font-medium text-primary-700 hover:text-primary-900">
-                View all services
-                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                </svg>
+ 
+    <header
+    id="header"
+    class="sticky top-0 z-40 w-full transition-all duration-300"
+  >
+    <nav class="bg-glass border-b border-gray-200 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20">
+          <!-- Logo -->
+          <div class="flex-shrink-0 flex items-center">
+            <a href="/" class="flex items-center">
+              <img
+                class="h-12 w-auto"
+                src="https://i.postimg.cc/cCwXxx3N/Ray-Design-Logo.png"
+                alt="RayDesign Technologies Logo"
+              />
             </a>
-        </div>
-    </div>
-</div>
+          </div>
 
-
-                        <a href="/portfolio/" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group">
-                            Portfolio
-                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                        </a>
-
-                        <a href="contact.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group">
-                            Contact
-                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                        </a>
-                    </div>
-
-                    <!-- Action Buttons -->
-                    <div class="hidden md:flex items-center">
-                        <a href="#contact" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 shadow-md transition-all duration-300 ml-3">
-                            Get a Quote
-                        </a>
-                        <a href="tel:+447878361409" class="inline-flex items-center justify-center px-4 py-2 border border-primary-600 text-sm font-medium rounded-md text-primary-600 bg-transparent hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-300 ml-3">
-                            <i class="fas fa-phone-alt mr-2"></i> Call Us
-                        </a>
-                    </div>
-
-                    <!-- Mobile menu button -->
-                    <div class="flex items-center md:hidden">
-                        <button id="mobile-menu-button" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500" aria-expanded="false">
-                            <span class="sr-only">Open main menu</span>
-                            <svg id="menu-icon" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                            <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mobile menu, show/hide based on menu state -->
-            <div id="mobile-menu" class="hidden md:hidden">
-                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-                    <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-primary-700 bg-primary-50">Home</a>
-                    <a href="/about/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">About Us</a>
-
-                   <!-- Mobile Services Accordion -->
-<div class="relative">
-    <button id="mobile-services-button" class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">
-        Services
-        <svg id="mobile-services-icon" class="h-5 w-5 transform transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-        </svg>
-    </button>
-
-    <div id="mobile-services-dropdown" class="hidden px-4 py-2 space-y-1">
-        <div class="py-2">
-            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Web & Mobile</h4>
-            <a href="/services/web-development/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Web Development</a>
-            <a href="/services/mobile-apps/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Mobile Applications</a>
-            <a href="/services/e-commerce" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">E-Commerce Solutions</a>
-        </div>
-
-        <div class="py-2 border-t border-gray-100">
-            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Marketing</h4>
-            <a href="/services/social-media/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Social Media Marketing</a>
-            <a href="/services/seo/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">SEO Services</a>
-            <a href="/services/ppc/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">PPC Advertising</a>
-        </div>
-
-        <div class="py-2 border-t border-gray-100">
-            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Design & Innovation</h4>
-            <a href="/services/ui-ux-design/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">UI/UX Design</a>
-            <a href="/services/branding/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Branding & Identity</a>
-        </div>
-
-        <div class="py-2 border-t border-gray-100">
-            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">AI & Automation</h4>
-            <a href="/services/ai-solutions/" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">AI Solutions</a>
-        </div>
-
-        <div class="py-2 border-t border-gray-100">
-            <a href="services.html" class="flex items-center px-3 py-2 text-sm font-medium text-primary-700 hover:text-primary-900">
-                View all services
-                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                </svg>
+          <!-- Desktop Navigation -->
+          <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">
+            <a
+              href="/"
+              class="px-3 py-2 rounded-md text-sm font-medium text-primary-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group"
+            >
+              Home
+              <span
+                class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"
+              ></span>
             </a>
-        </div>
-    </div>
-</div>
+            <a
+              href="about.html"
+              class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group"
+            >
+              About Us
+              <span
+                class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
 
+            <!-- Services Dropdown -->
+            <div class="relative group">
+              <button
+                class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 inline-flex items-center group-hover:text-primary-700"
+              >
+                Services
+                <svg
+                  class="ml-1 w-4 h-4 transition-transform duration-300 group-hover:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+                <span
+                  class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"
+                ></span>
+              </button>
 
-                    <a href="/portfolio.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Portfolio</a>
-
-                    <a href="/contact/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">Contact</a>
+              <!-- Dropdown Menu -->
+              <div
+                class="absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left group-hover:translate-y-0 translate-y-2 z-50 border border-gray-100"
+              >
+                <div class="p-4 grid grid-cols-1 gap-2">
+                  <div class="col-span-1">
+                    <h3
+                      class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                    >
+                      Web & Mobile
+                    </h3>
+                    <a
+                      href="services/web-development.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-laptop-code mr-3 text-primary-500"></i>
+                      Web Development
+                    </a>
+                    <a
+                      href="services/mobile-apps.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-mobile-alt mr-3 text-primary-500"></i>
+                      Mobile Applications
+                    </a>
+                    <a
+                      href="services/e-commerce.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i
+                        class="fas fa-shopping-cart mr-3 text-primary-500"
+                      ></i>
+                      E-Commerce Solutions
+                    </a>
+                  </div>
                 </div>
 
-                <div class="pt-4 pb-3 border-t border-gray-200">
-                    <div class="flex items-center px-4">
-                        <div class="flex-shrink-0">
-                            <i class="fas fa-headset text-2xl text-primary-600"></i>
-                        </div>
-                        <div class="ml-3">
-                            <div class="text-base font-medium text-gray-800">Need help?</div>
-                            <div class="text-sm font-medium text-gray-500">Our experts are available</div>
-                        </div>
-                    </div>
-                    <div class="mt-3 space-y-1 px-2">
-                        <a href="tel:+447878361409" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">
-                            <i class="fas fa-phone-alt mr-2"></i> +44 7878 361409
-                        </a>
-                        <a href="mailto:enquiry@raydesigntechnologies.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700">
-                            <i class="fas fa-envelope mr-2"></i> enquiry@raydesigntechnologies.com
-                        </a>
-                        <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium bg-primary-600 text-white hover:bg-primary-700 mt-3 text-center">
-                            Get a Quote
-                        </a>
-                    </div>
+                <div
+                  class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2"
+                >
+                  <div class="col-span-1">
+                    <h3
+                      class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                    >
+                      Marketing
+                    </h3>
+                    <a
+                      href="services/social-media.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-share-alt mr-3 text-primary-500"></i>
+                      Social Media Marketing
+                    </a>
+                    <a
+                      href="services/seo.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-search mr-3 text-primary-500"></i>
+                      SEO Services
+                    </a>
+                    <a
+                      href="services/ppc.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-bullseye mr-3 text-primary-500"></i>
+                      PPC Advertising
+                    </a>
+                  </div>
                 </div>
+
+                <div
+                  class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2"
+                >
+                  <div class="col-span-1">
+                    <h3
+                      class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                    >
+                      Design & Innovation
+                    </h3>
+                    <a
+                      href="services/ui-ux-design.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i
+                        class="fas fa-pencil-ruler mr-3 text-primary-500"
+                      ></i>
+                      UI/UX Design
+                    </a>
+                    <a
+                      href="services/branding.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-paint-brush mr-3 text-primary-500"></i>
+                      Branding & Identity
+                    </a>
+                  </div>
+                </div>
+
+                <div
+                  class="p-4 border-t border-gray-100 grid grid-cols-1 gap-2"
+                >
+                  <div class="col-span-1">
+                    <h3
+                      class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                    >
+                      AI & Automation
+                    </h3>
+                    <a
+                      href="services/ai-solutions.html"
+                      class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors duration-150"
+                    >
+                      <i class="fas fa-robot mr-3 text-primary-500"></i>
+                      AI Solutions
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
+
+            <a
+              href="portfolio.html"
+              class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group"
+            >
+              Portfolio
+              <span
+                class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+
+            <a
+              href="contact.html"
+              class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-800 transition-all duration-300 relative group"
+            >
+              Contact
+              <span
+                class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hidden md:flex items-center">
+            <a
+              href="#contact"
+              class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 shadow-md transition-all duration-300 ml-3"
+            >
+              Get a Quote
+            </a>
+            <a
+              href="tel:+447878361409"
+              class="inline-flex items-center justify-center px-4 py-2 border border-primary-600 text-sm font-medium rounded-md text-primary-600 bg-transparent hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-300 ml-3"
+            >
+              <i class="fas fa-phone-alt mr-2"></i> Call Us
+            </a>
+          </div>
+
+          <!-- Mobile menu button -->
+          <div class="flex items-center md:hidden">
+            <button
+              id="mobile-menu-button"
+              type="button"
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                id="menu-icon"
+                class="block h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+              <svg
+                id="close-icon"
+                class="hidden h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
+          <a
+            href="/"
+            class="block px-3 py-2 rounded-md text-base font-medium text-primary-700 bg-primary-50"
+            >Home</a
+          >
+          <a
+            href="about.html"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+            >About Us</a
+          >
+
+          <!-- Mobile Services Accordion -->
+          <div class="relative">
+            <button
+              id="mobile-services-button"
+              class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+            >
+              Services
+              <svg
+                id="mobile-services-icon"
+                class="h-5 w-5 transform transition-transform duration-200"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+
+            <div
+              id="mobile-services-dropdown"
+              class="hidden px-4 py-2 space-y-1"
+            >
+              <div class="py-2">
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  Web & Mobile
+                </h4>
+                <a
+                  href="/services/web-development.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >Web Development</a
+                >
+                <a
+                  href="/services/mobile-apps.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >Mobile Applications</a
+                >
+                <a
+                  href="/services/e-commerce.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >E-Commerce Solutions</a
+                >
+              </div>
+
+              <div class="py-2 border-t border-gray-100">
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  Marketing
+                </h4>
+                <a
+                  href="/services/social-media.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >Social Media Marketing</a
+                >
+                <a
+                  href="/services/seo.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >SEO Services</a
+                >
+                <a
+                  href="/services/ppc.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >PPC Advertising</a
+                >
+              </div>
+
+              <div class="py-2 border-t border-gray-100">
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  Design & Innovation
+                </h4>
+                <a
+                  href="/services/ui-ux-design.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >UI/UX Design</a
+                >
+                <a
+                  href="/services/branding.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >Branding & Identity</a
+                >
+              </div>
+
+              <div class="py-2 border-t border-gray-100">
+                <h4
+                  class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  AI & Automation
+                </h4>
+                <a
+                  href="/services/ai-solutions.html"
+                  class="block px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+                  >AI Solutions</a
+                >
+              </div>
+
+              <div class="py-2 border-t border-gray-100">
+                <a
+                  href="/services.html"
+                  class="flex items-center px-3 py-2 text-sm font-medium text-primary-700 hover:text-primary-900"
+                >
+                  View all services
+                  <svg
+                    class="ml-1 w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="portfolio.html" class="block px-3 py-2 rounded-md text-base
+          font-medium text-gray-700 hover:bg-primary-50
+          hover:text-primary-700" Portfolio / >
+
+          <a
+            href="contact.html"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+            >Contact</a
+          >
+        </div>
+
+        <div class="pt-4 pb-3 border-t border-gray-200">
+          <div class="flex items-center px-4">
+            <div class="flex-shrink-0">
+              <i class="fas fa-headset text-2xl text-primary-600"></i>
+            </div>
+            <div class="ml-3">
+              <div class="text-base font-medium text-gray-800">
+                Need help?
+              </div>
+              <div class="text-sm font-medium text-gray-500">
+                Our experts are available
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 space-y-1 px-2">
+            <a
+              href="tel:+447878361409"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+            >
+              <i class="fas fa-phone-alt mr-2"></i> +44 7878 361409
+            </a>
+            <a
+              href="mailto:enquiry@raydesigntechnologies.com"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-700"
+            >
+              <i class="fas fa-envelope mr-2"></i>
+              enquiry@raydesigntechnologies.com
+            </a>
+            <a
+              href="#contact"
+              class="block px-3 py-2 rounded-md text-base font-medium bg-primary-600 text-white hover:bg-primary-700 mt-3 text-center"
+            >
+              Get a Quote
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <!-- JavaScript for Header Interactions -->
     <script>
@@ -1401,7 +1636,7 @@
                                 <h3 class="text-xl font-bold text-white mb-4">Get a Free Consultation</h3>
                                 <p class="text-white/80 mb-6">Schedule a 45-minute consultation with our experts to discuss your project needs.</p>
 
-                                <form action="https://submit-form.com/27BUBS5ee" class="space-y-4">
+<form action="https://submit-form.com/l2ArscGWs" class="space-y-4">
                                     <div>
                                         <label for="quick-name" class="sr-only">Your Name</label>
                                         <input type="text" id="quick-name" name="quick-name" class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50" placeholder="Your Name">
@@ -1453,7 +1688,7 @@
                 <!-- Contact Form -->
                 <div class="lg:col-span-2">
                     <div class="bg-white rounded-2xl shadow-soft p-8 border border-gray-100">
-                        <form action="https://submit-form.com/27BUBS5ee" class="space-y-6">
+<form action="https://submit-form.com/l2ArscGWs" class="space-y-6">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
@@ -1738,60 +1973,292 @@
                 </div>
             </div>
 
-            <!-- Quick Links -->
-            <div>
-                <h3 class="text-lg font-bold text-gray-900 mb-6">Quick Links</h3>
-                <ul class="space-y-3">
-                    <li>
-                        <a href="/" class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/about/" class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                            About Us
-                        </a>
-                    </li>
-                    <li>
+           <!-- Quick Links -->
+           <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-6">Quick Links</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="/"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/about.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  About Us
+                </a>
+              </li>
+              <li></li>
+              <li>
+                <a
+                  href="/portfolio.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  Portfolio
+                </a>
+              </li>
 
-                    </li>
-                    <li>
-                        <a href="/portfolio/" class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                            Portfolio
-                        </a>
-                    </li>
+              <li>
+                <a
+                  href="/contact.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  Careers
+                </a>
+              </li>
+            </ul>
+          </div>
 
-                    <li>
-                        <a href="/contact/" class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                            Contact Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center">
-                            <svg class="w-4 h-4 mr-2 text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                            Careers
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <!-- Services -->
-<div>
+          <!-- Services -->
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-6">Our Services</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="/services/ai-solutions.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  AI & Automation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/branding.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Branding & Identity
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/e-commerce.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  E-Commerce Solutions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/mobile-apps.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Mobile App Development
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/ppc.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Pay-Per-Click (PPC) Ads
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/seo.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  SEO Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/social-media.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Social Media Management
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/ui-ux-design.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  UI/UX Design
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/web-development.html"
+                  class="text-gray-600 hover:text-primary-600 transition-colors duration-300 flex items-center"
+                >
+                  <svg
+                    class="w-4 h-4 mr-2 text-primary-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Web Development
+                </a>
+              </li>
+            </ul>
+          </div>
     <h3 class="text-lg font-bold text-gray-900 mb-6">Our Services</h3>
     <ul class="space-y-3">
         <li>
@@ -1856,7 +2323,7 @@
             <div>
                 <h3 class="text-lg font-bold text-gray-900 mb-6">Subscribe to Our Newsletter</h3>
                 <p class="text-gray-600 mb-4">Stay updated with our latest news, tips, and special offers.</p>
-                <form action="https://submit-form.com/27BUBS5ee" class="space-y-3">
+<form action="https://submit-form.com/l2ArscGWs" class="space-y-3">
                     <div>
                         <label for="footer-email" class="sr-only">Email Address</label>
                         <div class="relative">
